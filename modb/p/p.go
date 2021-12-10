@@ -1,8 +1,11 @@
 package p
 
 import (
-    "fmt"
+	"fmt"
+
+	_ "github.com/ethereum/go-ethereum/accounts/abi"
 )
+
 func init() {
-    fmt.Println("modb package init")
+	fmt.Println("modb package init")
 }
