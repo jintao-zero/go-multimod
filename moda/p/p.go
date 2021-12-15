@@ -3,9 +3,14 @@ package p
 import (
 	"fmt"
 
-	_ "github.com/ethereum/go-ethereum/accounts/abi"
+	"github.com/ethereum/go-ethereum/accounts/abi"
 )
 
 func init() {
 	fmt.Println("moda package init")
+}
+
+func ABI() *abi.ABI {
+    fmt.Println("moda p call ABI")	
+    return nil
 }
